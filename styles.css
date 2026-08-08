@@ -1376,3 +1376,27 @@ footer {
     bottom: 14px;
   }
 }
+
+
+/* BEER-ONLY VERSION */
+.specialty-photo-stack.single-photo .photo-main {
+  inset: 0;
+}
+
+.specialty-photo-stack.single-photo .photo-badge {
+  bottom: 28px;
+}
+
+.specialty-photo-stack.single-photo {
+  min-height: 570px;
+}
+
+@media (max-width: 650px) {
+  .specialty-photo-stack.single-photo {
+    min-height: 430px;
+  }
+
+  .specialty-photo-stack.single-photo .photo-main {
+    inset: 0;
+  }
+}
